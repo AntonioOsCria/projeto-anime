@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (
-   <h1>Código do Projeto</h1>
+   <Header />
   );
 }
 
