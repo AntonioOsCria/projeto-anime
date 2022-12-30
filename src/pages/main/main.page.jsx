@@ -1,10 +1,12 @@
 import React from 'react'
 
+import { Title } from './main.style'
+
 export const Main = () => {
   return (
-    <div>
-        
-    </div>
+   <Title>
+    Main
+   </Title>
 );
 }
 
