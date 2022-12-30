@@ -10,7 +10,9 @@ const Header = () => {
           Rick and Morty
         </Title>       
     </Wrapper>
-  )
+
+  );
+
 }
 
 export default Header;
