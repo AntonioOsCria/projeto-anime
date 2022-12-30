@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Wrapper } from "./styles";
-import { Title } from './styles';
+import { Wrapper } from "./header.styles";
+import { Title } from './header.styles';
 
 const Header = () => {
   return (
