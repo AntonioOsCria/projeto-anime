@@ -1,7 +1,8 @@
 import React from 'react'
+
 import { Title } from './info.style'
 
-export const Info = () => {
+const Info = () => {
   return (
   <Title>
     Info
@@ -9,4 +10,5 @@ export const Info = () => {
   );
 }
 
+export default Info;
 

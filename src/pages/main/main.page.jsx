@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Title } from './main.style'
 
-export const Main = () => {
+const Main = () => {
   return (
    <Title>
     Main
@@ -10,3 +10,4 @@ export const Main = () => {
 );
 }
 
+export default Main;
