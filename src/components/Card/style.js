@@ -5,4 +5,6 @@ export const CardStyle = styled.div`
  width: 230px;
  padding: 15px; 
  border-radius: 25px;
+ text-align: center;
+ margin-top:10px;
 `
