@@ -7,6 +7,7 @@ export const Card = () => {
     <CardStyle>
        <img src="https://picsum.photos/200/300" alt="imagen"/>
         <div>
+            <h1>Title</h1>
             <p>Informações</p>
             <span>|</span>
         </div>
