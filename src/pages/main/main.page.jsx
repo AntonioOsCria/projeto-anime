@@ -5,7 +5,7 @@ import { Card } from '../../components/Card/card';
 export const MainPage = () => {
   return (
     <Container>
-      <Card title="Title ind Card" />
+      <Card title="Title ind Card" information={"Test"}/>
     </Container>
    
 );
