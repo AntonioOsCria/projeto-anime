@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Title } from './info.style'
+import { Title } from '../info/info.style';
 
 const Info = () => {
   return (
   <Title>
-    Info
+     Info
   </Title>
   );
 }

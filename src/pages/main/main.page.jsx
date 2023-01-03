@@ -5,7 +5,7 @@ import { Title } from './main.style'
 const Main = () => {
   return (
    <Title>
-    Main
+      Main
    </Title>
 );
 }

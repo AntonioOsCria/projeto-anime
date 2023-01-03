@@ -1,9 +1,8 @@
 import React from 'react'
 
-import { Wrapper } from "./header.styles";
-import { Title } from './header.styles';
+import { Wrapper, Title } from "./styles";
 
-const Header = () => {
+export const Header = () => {
   return (
     <Wrapper>
         <Title>
@@ -13,4 +12,4 @@ const Header = () => {
   );
 }
 
-export default Header;
+
