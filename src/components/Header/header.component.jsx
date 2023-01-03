@@ -1,16 +1,15 @@
 import React from 'react'
 
-import { Wrapper } from "./header.styles";
-import { Title } from './header.styles';
+import { Wrapper, Title } from "./styles";
 
-const Header = () => {
+export const Header = () => {
   return (
     <Wrapper>
         <Title>
-          Rick and Morty
+            Rick and Morty
         </Title>       
     </Wrapper>
   );
 }
 
-export default Header;
+
