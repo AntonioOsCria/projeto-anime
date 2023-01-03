@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import { CardStyle } from './style';
 
 export const Card = ({ title, information }) => {
@@ -10,6 +11,11 @@ export const Card = ({ title, information }) => {
             <h1>{title}</h1>
             <p>Information</p>
             <span>{information}|</span>
+        </div>
+        <div>
+          <button>
+              More info
+          </button>
         </div>
     </CardStyle>
   )
