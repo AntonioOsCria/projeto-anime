@@ -2,8 +2,8 @@ import React from 'react'
 
 
 import { CardStyle } from './style';
-
 export const Card = ({ image, name, status }) => {
+  console.log(image, name, status);
   return (
     <CardStyle>
        <img src={image} alt="imagen"/>

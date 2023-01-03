@@ -7,6 +7,6 @@ export const Container = styled.div`
     background: Grey;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column;
+    flex: wrap;
     align-items: center;
 `;
