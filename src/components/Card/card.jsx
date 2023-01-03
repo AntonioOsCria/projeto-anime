@@ -3,14 +3,14 @@ import React from 'react'
 
 import { CardStyle } from './style';
 
-export const Card = ({ title, information }) => {
+export const Card = ({ image, name, status }) => {
   return (
     <CardStyle>
-       <img src="https://picsum.photos/200/300" alt="imagen"/>
+       <img src={image} alt="imagen"/>
         <div>
-            <h1>{title}</h1>
-            <p>Information</p>
-            <span>{information}|</span>
+            <h1>{name}</h1>
+            <p>Status</p>
+            <span>| {status}</span>
         </div>
         <div>
           <button>
