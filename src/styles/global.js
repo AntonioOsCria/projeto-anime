@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background: Grey;
     background-attachment: fixed;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     align-items: center;
+ 
 `;
