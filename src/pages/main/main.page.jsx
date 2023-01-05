@@ -21,7 +21,7 @@ export const MainPage = () => {
   return (
     <Container>
       {data.map((character) => (
-        <Card 
+        <Card
             image={character.image}  
             name={character.name} 
             status={character.status}/>

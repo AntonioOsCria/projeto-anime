@@ -7,5 +7,5 @@ export const CardStyle = styled.div`
  border-radius: 25px;
  text-align: center;
  margin: 10px 10px;
-
 `
+

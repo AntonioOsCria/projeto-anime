@@ -1,7 +1,7 @@
 import React from 'react'
 
-
 import { CardStyle } from './style';
+
 export const Card = ({ image, name, status }) => {
   console.log(image, name, status);
   return (
@@ -13,7 +13,7 @@ export const Card = ({ image, name, status }) => {
             <span>| {status}</span>
         </div>
         <div>
-          <button>
+          <button onClick={Event}>
               More info
           </button>
         </div>
