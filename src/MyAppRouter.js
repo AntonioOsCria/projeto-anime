@@ -9,7 +9,7 @@ export const MyAppRoutes = () => {
        <BrowserRouter>
             <Routes>
                 <Route path="/" exact element = { <MainPage /> }  />
-                <Route path="/info"  element = { <InfoPage /> } />
+                <Route path="/info/:caracter" element={ <InfoPage /> } />
             </Routes>
        </BrowserRouter>
     );
