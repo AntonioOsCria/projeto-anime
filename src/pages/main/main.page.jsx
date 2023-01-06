@@ -1,11 +1,12 @@
 import React from 'react'
 
-import { Title } from './style'
-
+import { Container } from "../../styles/global";
+import { Card } from '../../components/Card/card';
 export const MainPage = () => {
   return (
-   <Title>
-       Main
-   </Title>
+    <Container>
+      <Card title="Title ind Card" information={"Test"}/>
+    </Container>
+   
 );
 }
